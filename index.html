@@ -128,20 +128,6 @@ body {
       }
     }
 
-    .intro p, .intro ul {
-      font-size: 12px;     /* keep body text readable */
-      line-height: 1.4;
-      margin-bottom: 10px;
-      display: block;
-      margin-left: 4px;
-      text-align: left;
-      color: #292d32;
-    }
-
-    .intro ul {
-      padding-left: 30px;  /* indent bullet list */
-    }
-
     /* Placeholder text also scales */
 input::placeholder,
 textarea::placeholder {
@@ -325,11 +311,11 @@ button.action,
       <label for="email">Queen's Email Address</label>
       <input type="email" id="email" placeholder="Enter your email address" />
 
-      <label for="grad">Estimated Graduation Year</label>
-      <input type="grad" id="grad" placeholder="Enter your estimated year of graduation" />
+      <label for="grad">Expected Graduation Year</label>
+      <input type="grad" id="grad" placeholder="Enter your expected year of graduation" />
 
 
-      <label for="birthday">What is your birthday? (We want to celebrate you!!)</label>
+      <label for="birthday">When is your birthday? (We want to celebrate you!!)</label>
       <input type="date" id="birthday" />
 
       <label for="faculty">Faculty</label>
@@ -463,7 +449,6 @@ button.action,
         welcomeMessage.classList.add('status-success');  // green for normal
       }
       */
-/* TIMEOUT TO SUBMIT COMMENTED OUT FOR NOW
 
      setTimeout(() => {
   if (reasonSection.style.display === 'block') {
@@ -483,7 +468,6 @@ button.action,
   }
 }, 12000); // 12000ms = 12s
 
-*/
 
          }
 
